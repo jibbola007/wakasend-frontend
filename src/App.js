@@ -3,7 +3,8 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import FeaturesSection from './components/FeaturesSection';
 import Footer from './components/Footer';
-import './index.css'; // Import the CSS here
+import './index.css'; 
+import './HeroSection.css';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       <Footer />
     </>
   );
+  
 }
+
+
 
 export default App;
